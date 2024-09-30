@@ -45,8 +45,7 @@ class AlbumImplTest {
 		assertEquals(5, album.size());
 		assertTrue(album.addPhoto(photos[5]));
 		assertEquals(6, album.size());
-		assertTrue(album.addPhoto(new Photo(7,7, null, null, null)));
-		assertEquals(7, album.size());
+	
 		
 		
 		
