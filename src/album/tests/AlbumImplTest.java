@@ -1,4 +1,4 @@
-package album.dao;
+package album.tests;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.jupiter.api.Assertions.*;
@@ -11,6 +11,8 @@ import java.util.Comparator;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import album.dao.Album;
+import album.dao.AlbumImpl;
 import album.model.Photo;
 
 class AlbumImplTest {
